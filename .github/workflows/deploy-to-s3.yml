@@ -13,6 +13,10 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4
 
+    - name: List files in source directory
+      run: |
+        ls -l ./s3/covid-19-ukhsa
+
     - name: Deploy to S3
       run: |
         aws s3 sync ./s3/covid-19-ukhsa s3://covid-19-ukhsa
