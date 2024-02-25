@@ -13,11 +13,6 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4
 
-    - name: Install AWS CLI
-      run: |
-        sudo apt-get update
-        sudo apt-get install -y awscli
-
     - name: Deploy to S3
       run: |
         aws s3 sync ./s3/covid-19-ukhsa s3://covid-19-ukhsa
