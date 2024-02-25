@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="239d5f53-a9c5-4229-b63c-95c292bee5e0" name="Changes" comment="" />
+    <list default="true" id="239d5f53-a9c5-4229-b63c-95c292bee5e0" name="Changes" comment="Creating covid_19 repo" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,6 +45,19 @@
       <option name="presentableId" value="Default" />
       <updated>1708834058529</updated>
     </task>
+    <task id="LOCAL-00001" summary="Creating covid_19 repo">
+      <option name="closed" value="true" />
+      <created>1708834220462</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1708834220462</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Creating covid_19 repo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating covid_19 repo" />
   </component>
 </project>
