@@ -7,7 +7,7 @@ on:
 
 jobs:
   deploy:
-    runs-on: windows-latest
+    runs-on: Windows 11 Home
 
     steps:
     - name: Checkout repository
